@@ -37,7 +37,7 @@ db.users.updateOne({ email: "your@email.com" }, { $set: { role: "admin" } })
 ```bash
 npm run dev
 ```
-Open http://localhost:3000
+Open https://scatch-ecommerce-8x4j.onrender.com
 
 ## 5. Online payments (optional)
 Add Razorpay test credentials to `RAZORPAY_KEY_ID` and `RAZORPAY_KEY_SECRET` in `.env`. Without them, checkout supports Cash on Delivery. Never expose the secret in frontend code.
